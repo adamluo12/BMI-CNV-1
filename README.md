@@ -9,4 +9,4 @@ We developed BMI-CNV, a Bayesian Multi-sample and Integrative CNV (BMI-CNV) prof
 ## General workflow
 Our method mainly focuses on CNV detection by integrating the SNP array and WES data, although it can also be naturally applied to the WES data only situation. Fig 1 shows an overview of the framework of BMI-CNV. First, WES read counts and SNP array intensities are integrated using a series of data integration procedures, including normalization, standardization, and merging. Our main algorithm consists of two main stages: Stage I uses a Bayesian PSBP method  coupled with a Gaussian mixture model-based initial data filtering to identify shared CNV regions, and Stage II as the individual CNV calling procedure. 
 
-![workflow](Fig 1.jpg)
+![workflow](Fig1.jpg)
